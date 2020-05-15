@@ -14,7 +14,7 @@ export default class About extends Component {
           <div className="nine columns main-col">
             <h2>About Me</h2>
             <p>
-              Motivated, hard working an ingenous Software Engineer actively seeking internships from summer 2020 Graduate
+              Motivated, hard working and ingenous Software Engineer actively seeking internships from summer 2020, Graduate
                student pursuing Master of Science in Information Systems at Northeastern University with an aptitude for challenges
                 and a drive to efficiently manage workloads with high performance while also meeting stenous deadlines
             </p>

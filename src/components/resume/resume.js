@@ -20,7 +20,7 @@ export default class Resume extends Component {
                   <p className="info">Master in Information Systems <span>•</span> <em className="date">Currently Enrolled</em></p>
                   <p>
                   Relevant Courses - Application Engineering Development (Java),Cloud Computing, 
-                  Web Design And User Experience Engineering, Data Science Engineering Methods,
+                  Web Design And User Experience Engineering,Web Development Tools And Methods, Data Science Engineering Methods,
                    Database Management And Database Design
                   </p>
                 </div>
@@ -44,6 +44,21 @@ export default class Resume extends Component {
             <div className="three columns header-col">
               <h1><span>Internship</span></h1>
             </div>
+            <div className="nine columns main-col">
+              <div className="row item">
+                <div className="twelve columns">
+                  <h3>College of Engineering, Northeastern University</h3>
+                  <p className="info">Graduate Teaching Assistant (CSYE 7280 User Experience Design/Testing) )        
+                  <span>•</span> <em className="date">January 2021 - Present</em></p>
+                  <p>
+                  Create code for lab sessions and mentor 50 students to help them with their academic progress by providing
+appropriate feedback though one-on-one virtual meetings and written comments on assignment submission<br></br>
+Assist professor to teach tools like Axure, Balsamiq, Sketch along with designing and conducting online
+Canvas quizzes</p>
+                </div>
+              </div> {/* item end */}
+            </div> {/* main-col end */}
+
             <div className="nine columns main-col">
               <div className="row item">
                 <div className="twelve columns">
@@ -73,32 +88,38 @@ export default class Resume extends Component {
                 <b><p>Programming Languages:</p></b>
                 </div>
                 <div className="seven columns">
-                  <p>C, C++, JAVA, Python (NumPy, Pandas, SciPy)</p>
+                  <p> JAVA, C++, Data Structures, Algorithms</p>
                   </div>
                   <div className="five columns">
                   <b><p>Web Technologies:</p></b>
                 </div>
                 <div className="seven columns">
-                  <p className="date">HTML, CSS, JavaScript, AngularJS, Bootstrap,
-                   Nodejs, ReactJS, ES6+, AJAX, JQuery</p>
+                  <p className="date">HTML, CSS, JavaScript, Bootstrap,
+                   Nodejs, ReactJS, ES6+, REST, JQuery</p>
                   </div>
                   <div className="five columns">
-                  <b><p>Tools:</p></b>
+                  <b><p>J2EE Technologies:</p></b>
                 </div>
                 <div className="seven columns">
-                 <p className="date">NetBeans, Visual Studio Code, Toad Modeler </p>
+                 <p className="date">Servlet, JSP, Spring MVC, Hibernate </p>
                   </div>
                   <div className="five columns">
-                  <b><p>Database:</p></b>
+                  <b><p>IDE:</p></b>
+                </div>
+                <div className="seven columns">
+                 <p className="date">NetBeans, Visual Studio Code, Eclipse </p>
+                  </div>
+                  <div className="five columns">
+                  <b><p>Database And Visualization:</p></b>
                 </div>
                 <div className="seven columns">
                   <p className="date">MYSQL, MongoDB, Oracle, MS SQL Server</p>
                   </div>
                   <div className="five columns">
-                  <b><p>Project Management Tools:  </p></b>
+                  <b><p>Project Operation Tools:  </p></b>
                 </div>
                 <div className="seven columns">
-                  <p className="date">Bitbucket, Tableau, Power BI, Unity</p>
+                  <p className="date">Selenium, UFT, Git, Tableau, Power BI, Axure RP</p>
                   </div>
                 
                   </div>

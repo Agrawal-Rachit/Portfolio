@@ -19,13 +19,13 @@ export default class Contact extends Component {
               <fieldset>
                 <div>
                   <label htmlFor="Email">Email</label>
-                  <label htmlFor="Email"><a target="_blank" href="mailto:agrawal.rac@husky.neu.edu">
-                    agrawal.rac@husky.neu.edu</a></label>
+                  <label htmlFor="Email"><a target="_blank" href="mailto:agrawal.rac@northeastern.edu">
+                  agrawal.rac@northeastern.edu</a></label>
                 </div>
                 <br></br><br></br>
                 <div>
                   <label htmlFor="Phone">Phone</label>
-                  <label htmlFor="Phone">+1-(857)-930-5297</label>
+                  <label htmlFor="Phone">+1-(857)-205-6458</label>
                 </div>
                 <br></br><br></br>
                 <div>

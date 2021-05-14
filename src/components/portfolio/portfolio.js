@@ -94,6 +94,34 @@ export default class Portfolio extends Component {
                     </a>
                   </div>
                 </div> {/* item end */}
+                <div className="columns portfolio-item">
+                  <div className="item-wrap">
+                    <a href="#modal-07" title>
+                      <img alt="" src="images/north1.jpg" />
+                      <div className="overlay">
+                        <div className="portfolio-item-meta">
+                          <h5>My Northeastern Portal</h5>
+                          <p>Selenium Project</p>
+                        </div>
+                      </div>
+                      <div className="link-icon"><i className="icon-plus" /></div>
+                    </a>
+                  </div>
+                </div> {/* item end */}
+                <div className="columns portfolio-item">
+                  <div className="item-wrap">
+                    <a href="#modal-08" title>
+                      <img alt="" src="images/park1.jpg" />
+                      <div className="overlay">
+                        <div className="portfolio-item-meta">
+                          <h5>A Walk In The Park </h5>
+                          <p>Unity Project </p>
+                        </div>
+                      </div>
+                      <div className="link-icon"><i className="icon-plus" /></div>
+                    </a>
+                  </div>
+                </div> {/* item end */}
               </div> {/* portfolio-wrapper end */}
             </div> {/* twelve columns end */}
             {/* Modal Popup
@@ -193,6 +221,38 @@ export default class Portfolio extends Component {
                 <a className="popup-modal-dismiss">Close</a>
               </div>
             </div>{/* modal-06 End */}
+
+            <div id="modal-07" className="popup-modal mfp-hide">
+              <img className="scale-with-grid" src="images/north2.jpg" alt="" />
+              <div className="description-box">
+              <h4>Software Quality Control And Management</h4>
+                <p>Design and execute automated tests scripts for college portal with various test scenarios 
+                  using Selenium
+                   Wrote test cases, test scenarios , traceability matrix and test condition matrix for various test plans</p>
+                <span className="categories"><i className="fa fa-tag" />Selenium Project</span>
+              </div>
+              <div className="link-box">
+                <a target="_blank" href="https://github.com/Agrawal-Rachit/Selenium-MyNortheasternPortal">Details</a>
+                <a className="popup-modal-dismiss">Close</a>
+              </div>
+            </div>{/* modal-07 End */}
+
+            <div id="modal-08" className="popup-modal mfp-hide">
+              <img className="scale-with-grid" src="images/park2.jpg" alt="" />
+              <div className="description-box">
+                <h4>Unity Game Engine</h4>
+                <p>A WALK IN THE PARK is an android based game which was developed by using unity engine . 
+                  The main focus of the game is to play an open world game and complete a couple of missions. 
+                  To develop the assets or 3D models I used a software known as 3DS max.
+                   The coding is done C# language. 
+                   This game can be played anywhere is your android mobile phone.</p>
+                <span className="categories"><i className="fa fa-tag" />Unity Project</span>
+              </div>
+              <div className="link-box">
+                <a target="_blank" href="https://github.com/Agrawal-Rachit/Unity---A-Walk-In-the-Park">Details</a>
+                <a className="popup-modal-dismiss">Close</a>
+              </div>
+            </div>{/* modal-08 End */}
 
           </div> {/* row End */}
         </section>

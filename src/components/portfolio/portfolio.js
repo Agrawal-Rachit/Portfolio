@@ -40,7 +40,7 @@ export default class Portfolio extends Component {
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
                     <a href="#modal-06" title>
-                      <img alt="" src="images/gift1.jpg" />
+                      <img alt="" src="images/Gift1.jpg" />
                       <div className="overlay">
                         <div className="portfolio-item-meta">
                           <h5>Red Moments Gift Gallery</h5>
@@ -179,7 +179,7 @@ export default class Portfolio extends Component {
             </div>{/* modal-05 End */}
 
             <div id="modal-06" className="popup-modal mfp-hide">
-              <img className="scale-with-grid" src="images/gift2.jpg" alt="" />
+              <img className="scale-with-grid" src="images/Gift2.jpg" alt="" />
               <div className="description-box">
                 <h4>Web Development Tools And Methods</h4>
                 <p>Build a full stack Ecommerce web app using JSP, Spring MVC and Hibernate that permit clients to buy gifts 

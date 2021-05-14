@@ -17,7 +17,7 @@ export default class Resume extends Component {
               <div className="row item">
                 <div className="twelve columns">
                   <h3>Northeastern University, Boston, MA</h3>
-                  <p className="info">Master in Information Systems <span>•</span> <em className="date">Currently Enrolled</em></p>
+                  <p className="info">Masters in Information Systems <span>•</span> <em className="date">May 2021</em></p>
                   <p>
                   Relevant Courses - Application Engineering Development (Java),Cloud Computing, 
                   Web Design And User Experience Engineering,Web Development Tools And Methods, Data Science Engineering Methods,
@@ -42,14 +42,14 @@ export default class Resume extends Component {
         ----------------------------------------------- */}
           <div className="row work">
             <div className="three columns header-col">
-              <h1><span>Professional Experience</span></h1>
+              <h1><span> Experience</span></h1>
             </div>
             <div className="nine columns main-col">
               <div className="row item">
                 <div className="twelve columns">
                   <h3>College of Engineering, Northeastern University</h3>
                   <p className="info">Graduate Teaching Assistant (CSYE 7280 User Experience Design/Testing) )        
-                  <span>•</span> <em className="date">January 2021 - Present</em></p>
+                  <span>•</span> <em className="date">January 2021 - May 2021</em></p>
                   <p>
                   Create code for lab sessions and mentor 50 students to help them with their academic progress by providing
 appropriate feedback though one-on-one virtual meetings and written comments on assignment submission<br></br>
@@ -88,14 +88,14 @@ Canvas quizzes</p>
                 <b><p>Programming Languages:</p></b>
                 </div>
                 <div className="seven columns">
-                  <p> JAVA, C++, Data Structures, Algorithms</p>
+                  <p> JAVA, JavaScript, C++, Data Structures, Algorithms</p>
                   </div>
                   <div className="five columns">
                   <b><p>Web Technologies:</p></b>
                 </div>
                 <div className="seven columns">
-                  <p className="date">HTML, CSS, JavaScript, Bootstrap,
-                   Nodejs, ReactJS, ES6+, REST, JQuery</p>
+                  <p className="date">ReactJS, Node.js, HTML, CSS, Bootstrap,
+                    JSON, REST, JQuery, Express.js</p>
                   </div>
                   <div className="five columns">
                   <b><p>J2EE Technologies:</p></b>
@@ -119,7 +119,7 @@ Canvas quizzes</p>
                   <b><p>Project Operation Tools:  </p></b>
                 </div>
                 <div className="seven columns">
-                  <p className="date">Selenium, UFT, Git, Tableau, Power BI, Axure RP</p>
+                  <p className="date">Selenium, UFT, Git, Figma, Tableau, Power BI, Axure RP</p>
                   </div>
                 
                   </div>

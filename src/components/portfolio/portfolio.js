@@ -39,11 +39,25 @@ export default class Portfolio extends Component {
                 </div> {/* item end */}
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
+                    <a href="#modal-06" title>
+                      <img alt="" src="images/gift1.jpg" />
+                      <div className="overlay">
+                        <div className="portfolio-item-meta">
+                          <h5>Red Moments Gift Gallery</h5>
+                          <p>Spring MVC,Hibernate Project</p>
+                        </div>
+                      </div>
+                      <div className="link-icon"><i className="icon-plus" /></div>
+                    </a>
+                  </div>
+                </div> {/* item end */}
+                <div className="columns portfolio-item">
+                  <div className="item-wrap">
                     <a href="#modal-05" title>
                       <img alt="" src="images/wanderlust.jpg" />
                       <div className="overlay">
                         <div className="portfolio-item-meta">
-                          <h5>Waterlust Travel website</h5>
+                          <h5>Wanderlust Travel website</h5>
                           <p>UI/UX Project</p>
                         </div>
                       </div>
@@ -51,6 +65,7 @@ export default class Portfolio extends Component {
                     </a>
                   </div>
                 </div> {/* item end */}
+                
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
                     <a href="#modal-03" title>
@@ -150,7 +165,7 @@ export default class Portfolio extends Component {
             <div id="modal-05" className="popup-modal mfp-hide">
               <img className="scale-with-grid" src="images/wanderlust1.jpg" alt="" />
               <div className="description-box">
-                <h4>User Integration And User Experience</h4>
+                <h4>User Experience And User Design</h4>
                 <p>Created prototypes for an interactive internet travel website utilizing user research methods like Card Sorting,
                    Usability Testing and User Interviews
                    Modelled workflows, personas, interaction flows, wireframes, low fidelity mock-ups, navigational flows, and
@@ -161,7 +176,24 @@ export default class Portfolio extends Component {
                 <a target="_blank" href="https://github.com/Agrawal-Rachit/UI-UX-Wanterlust-Travel-Website">Details</a>
                 <a className="popup-modal-dismiss">Close</a>
               </div>
-            </div>{/* modal-04 End */}
+            </div>{/* modal-05 End */}
+
+            <div id="modal-06" className="popup-modal mfp-hide">
+              <img className="scale-with-grid" src="images/gift2.jpg" alt="" />
+              <div className="description-box">
+                <h4>Web Development Tools And Methods</h4>
+                <p>Build a full stack Ecommerce web app using JSP, Spring MVC and Hibernate that permit clients to buy gifts 
+                  on the web
+                  Leveraged Interceptors, XSS filters and Hibernate annotations-based mapping for enhanced database 
+                  interaction with MySQL for data storage and loading</p>
+                <span className="categories"><i className="fa fa-tag" />Web Tools Project</span>
+              </div>
+              <div className="link-box">
+                <a target="_blank" href="https://github.com/Agrawal-Rachit/WebTools-RedMoments">Details</a>
+                <a className="popup-modal-dismiss">Close</a>
+              </div>
+            </div>{/* modal-06 End */}
+
           </div> {/* row End */}
         </section>
    
